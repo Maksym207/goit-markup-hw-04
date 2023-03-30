@@ -477,7 +477,7 @@ body {
 }
 .footer-logo-container {
   display: flex;
-
+  margin-right: auto;
   max-width: 264px;
   padding-right: 120px;
 }
@@ -545,7 +545,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 .customers-icon {
@@ -587,4 +587,8 @@ body {
 }
 .footer-logo-text {
   margin-right: 130px;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  color: #31d0aa;
 }
