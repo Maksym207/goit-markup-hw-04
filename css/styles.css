@@ -497,6 +497,7 @@ body {
   border-radius: 50%;
   background-color: var(--blu);
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
