@@ -477,7 +477,7 @@ body {
 }
 .footer-logo-container {
   display: flex;
-  justify-content: center;
+
   max-width: 264px;
   padding-right: 120px;
 }
@@ -586,4 +586,5 @@ body {
 .footer-icon {
 }
 .footer-logo-text {
+  margin-right: 130px;
 }
