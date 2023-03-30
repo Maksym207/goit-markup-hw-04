@@ -304,6 +304,19 @@ body {
 .photo-color {
   color: var(--main-title-color);
 }
+
+.quaisty-page-link {
+  width: 264px;
+  height: 112px;
+  background-color: var(--l-gray);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quaisty-soc-icon {
+}
 /*-----------------------PAGE----------------------*/
 .page1 {
   font-weight: 700;
@@ -463,6 +476,8 @@ body {
   padding-right: 120px;
 }
 .footer-logo-container {
+  display: flex;
+  justify-content: center;
   max-width: 264px;
   padding-right: 120px;
 }
@@ -492,8 +507,51 @@ body {
 .photo-soc-icon:focus {
   color: var(--d-blu);
 }
+/* **********************  Customers  ********** */
+.customers-new {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.customers {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+.customers-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 1128px;
+  height: 88px;
+}
+.customers-link {
+  width: 168px;
+  height: 88px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.customers-icon {
+}
 .footer-icon {
 }
+/* ******************************footer icon************** */
 .text-footer {
   font-weight: 500;
   font-size: 16px;
@@ -525,4 +583,6 @@ body {
   fill: #f4f4fd;
 }
 .footer-icon {
+}
+.footer-logo-text {
 }
