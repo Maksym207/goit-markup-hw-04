@@ -46,11 +46,11 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1128px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 /*-----------------------HEDER----------------------*/
 .page-header-conteiner {
@@ -140,11 +140,10 @@ body {
   color: var(--main-color);
 }
 
-.header-portfolio-link,
-.header-portfolio-address {
+.header-portfolio-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -164,6 +163,7 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--main-gray);
+  font-weight: 400;
 }
 .servis-link {
   display: inline-block;
@@ -537,12 +537,13 @@ body {
 }
 .customers-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   gap: 24px;
+  width: 100%;
 }
 .customers-item {
-  width: 1128px;
+  flex-grow: 1;
   height: 88px;
 }
 .customers-link {
