@@ -166,7 +166,7 @@ body {
   color: var(--main-gray);
 }
 .servis-link {
-  display: flex;
+  display: inline-block;
 }
 .servis-link:hover,
 .servis-link:focus {
